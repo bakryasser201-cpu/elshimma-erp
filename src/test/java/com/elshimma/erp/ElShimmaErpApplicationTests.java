@@ -1,0 +1,15 @@
+package com.elshimma.erp;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+
+@SpringBootTest
+@ActiveProfiles("test")
+class ElShimmaErpApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
